@@ -1,6 +1,11 @@
-yarn build : building the project (output -> dist).  
-yarn dev : launch the project on port 3000.  
+**Quick launch**
+yarn add all (or npm install) : Install all the dependancies from package.json
+yarn dev (or npm run dev): launch the project on port 3000.  
 
+**Building**
+yarn build (or npm run build) : building the project (output -> dist).  
+
+**Infos**
 You can put your images, fonts and other media stuff into public/assets.  
 
 React :   
