@@ -1,5 +1,5 @@
 // import store from "../store/createStore";
-// import AppConnector from "../../connectors/AppConnector";
+// import AuthConnector from "../../connectors/AuthConnector";
 
 // export const connectUser = loginInfo => {
 //     return (dispatch) => {
