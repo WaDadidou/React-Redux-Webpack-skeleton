@@ -6,7 +6,8 @@ yarn dev (or npm run dev): launch the project on port 3000.
 yarn build (or npm run build) : building the project (output -> dist).  
 
 **Infos**  
-You can put your images, fonts and other media stuff into public/assets.  
+You can put your images, fonts and other media stuff into public/assets.
+You must add a .env file (example : .env.dev)
 
 React :   
 Full functionnal components with React hooks is possible.  
