@@ -1,5 +1,5 @@
 **Quick launch**  
-yarn add all (or npm install) : Install all the dependancies from package.json
+yarn add all (or npm install) : Install all the dependancies from package.json  
 yarn dev (or npm run dev): launch the project on port 3000.  
 
 **Building**  
