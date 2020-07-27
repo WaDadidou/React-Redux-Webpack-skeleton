@@ -25,7 +25,7 @@ dataActions for front actions.
 You have .babelrc and webpack.config.js.  
 You can use Sass, ES6, HTML5 history path, dotenv and many loaders.  
 
---Sass-- 
+--Sass--  
 Reset CSS file and explicite architecture.  
 Don't forget to add your scss file into index.scss .  
 _file.scss with an underscore are modules and does'nt generate a css file.  
