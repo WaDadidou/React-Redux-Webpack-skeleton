@@ -1,23 +1,19 @@
-import store from "../store/createStore";
-import AppConnector from "../../connectors/AppConnector";
+// import store from "../store/createStore";
+// import AppConnector from "../../connectors/AppConnector";
 
-// export const fetchAllThings = () => {
+// export const connectUser = loginInfo => {
 //     return (dispatch) => {
-//         // dispatch(startLoading());
-//
-//         return AppConnector.get(`/api/allThings`)
+//         return AuthConnector.post(`/api/login`, JSON.stringify(loginInfo))
 //             .then((res) => {
 //                 if (res.status === 200) {
-//
-//                     dispatch(fetchAllThingsSuccess(res.data.things));
-//                     // dispatch(endLoading());
+//                     dispatch(connectUserSuccess(res.data.user));
 //                 } else {
 //                     throw new Error(res.error);
 //                 }
 //             })
 //             .catch((err) => {
 //                 console.error(err);
-//                 alert('Error fetching things please try again');
+//                 alert('Error logging in please try again');
 //             });
 //
 //     };

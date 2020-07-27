@@ -23,8 +23,6 @@ const reducer = (state = INITIAL_STATE, action) => {
         //     } || state;
         //     break;
 
-            // socket io + add to the store
-
         //----------------------------------------------------------------
         default:
             return state;
